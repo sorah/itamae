@@ -154,6 +154,7 @@ module Itamae
         @current_action = action
 
         clear_current_attributes
+        @updated = false
 
         Logger.info "action: #{action}"
 
